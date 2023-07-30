@@ -1,0 +1,9 @@
+<h2>Recommended services</h2>
+
+<ul>
+
+    {% for key, value in output.items %} 
+
+    <a href="{{ value }}">{{key}}</a><br><br></li>
+    {% endfor %}
+</ul>
